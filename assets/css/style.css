@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@900&display=swap');
+
+.nav-top {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.header-bga {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 250px;
+    overflow: hidden;
+    max-height: initial;
+}
+/* Centered text */
+.header-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+.bimage {
+    /* The image used */
+    background-image: url("../image/mapbg.png");
+  
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    max-height: initial;
+    margin: -50px 0px;
+    height: 500px;
+}
+
+.breaker {
+    padding-top: 15px;
+}
+.mass-break {
+    padding-top: 220px;
+}
+.small-break {
+    padding-top: 150px;
+}
+
+.cards {
+    display: block;
+}
+.card {
+    display: inline-block;
+    padding: 4px;
+    width: 500px;
+    height: 150px;
+    text-align: center;
+}
+.join .button-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-card {
+    /* Center vertically */
+    position: absolute;
+    top: 50%;
+    margin-top: -25px; /* half this element's height */
+}
+.img-border {
+    border: 1px solid grey;
+}
+.sorry-footer {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
